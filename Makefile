@@ -9,3 +9,15 @@ run:
 #: Run the server in debug mode
 debug:
 	deno run --inspect --allow-net --allow-read --allow-write ./index.ts
+
+#: Format the code
+format:
+	deno fmt
+
+#: Run the tests
+test:
+	deno test --coverage=cov_profile
+
+#: Run the linter
+lint:
+	deno lint

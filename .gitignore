@@ -1,3 +1,5 @@
 **/*.sqlite
 .vscode/settings.json
-/coverage
+
+# Test coverage
+/cov_profile

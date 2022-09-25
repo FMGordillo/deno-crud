@@ -10,7 +10,7 @@ const initializeDb = () => {
 };
 
 const closeDb = () => {
-    db.close();
+  db.close();
 };
 
-export { db, closeDb, initializeDb };
+export { closeDb, db, initializeDb };
