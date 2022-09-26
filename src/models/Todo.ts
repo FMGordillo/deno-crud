@@ -12,7 +12,7 @@ const createTodoTable = `
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         title TEXT NOT NULL,
         description TEXT NOT NULL,
-        status TEXT NOT NULL,
+        status TEXT NOT NULL DEFAULT "pending",
         user_id INTEGER NOT NULL REFERENCES users(id)
     )
 `;
