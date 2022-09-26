@@ -8,7 +8,7 @@ type Todo = {
 };
 
 const createTodoTable = `
-    CREATE TABLE IF NOT EXISTS todo (
+    CREATE TABLE IF NOT EXISTS todos (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         title TEXT NOT NULL,
         description TEXT NOT NULL,
